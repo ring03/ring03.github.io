@@ -1,0 +1,16 @@
+@media all (min-width:1099px) {
+
+	/*
+  	**************************
+  	Portfolio Grid
+  	**************************
+  	*/
+
+  	.portfolio-grid{
+  	    width:849px;
+  	}
+
+  	.grid-hover, li.grid-item, li.grid-item img{
+  		width:250px;
+  	}
+}
