@@ -9,6 +9,12 @@ body {
     line-height: 20px;
 }
 
+#back-top {
+   position: fixed;
+   right: 20px;
+   bottom: 15px;
+}
+
 a:link, a:active, a:visited { 
 		text-decoration: none;
 		color: #042839;
@@ -148,7 +154,67 @@ header footer{
     bottom: 20px;
 }
 
-    
+/*
+**************************
+CONTENT
+**************************
+*/
+
+.one-column{
+  width:40%;
+  position:relative;
+  float:left;
+}
+
+.two-column{
+  width:60%;
+  position:relative;
+  float:left;
+}
+
+.one-column p{
+  width:70% !important;
+}
+
+.two-column p{
+  width:100% !important;
+}
+
+.clear{
+  clear:both;
+}
+
+.content{
+  position:relative;
+  width:849px;
+  margin:25px auto;
+}
+
+.content .text-intro{
+  width: 849px;
+  margin-top: 150px;
+  margin: 5px 310px;
+}
+
+.content .text-intro h1{
+  font-size:43px;
+  width:40%;
+  text-transform:uppercase;
+  color:#000000;
+  font-weight:900;
+  line-height:60px;
+}
+
+.content .text-intro p{
+  font-size:13px;
+  color:#8d8d8d;
+  margin-top:10px;
+  font-weight:400;
+  line-height:22px;
+  letter-spacing:1px;
+  width:40%;
+}
+
 /*
 **************************
 PORTFOLIO GRID
